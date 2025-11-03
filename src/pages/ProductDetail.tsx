@@ -62,7 +62,7 @@ export default function ProductDetail(){
         <div className="md:col-span-2">
           <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
           <p className="text-gray-700 mb-4">{product.description}</p>
-          <div className="text-2xl font-semibold text-cyan-600 mb-4">{product.price ? `S/${product.price}` : 'Consultar precio'}</div>
+          <div className="text-2xl font-semibold text-cyan-600 mb-4">{product.price ? `$${product.price}` : 'Consultar precio'}</div>
 
           <div className="mb-6">
             <h3 className="font-semibold mb-2">Características</h3>

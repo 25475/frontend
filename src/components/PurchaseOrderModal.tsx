@@ -30,7 +30,7 @@ const PurchaseOrderModal: React.FC<PurchaseOrderModalProps> = ({ isOpen, onClose
   // Cálculos del carrito
   const cartCalculations = useMemo(() => {
     const subtotal = total;
-    const shipping = subtotal >= 500 ? 0 : 30; // Envío gratis sobre S/ 500
+    const shipping = subtotal >= 500 ? 0 : 30; // Envío gratis sobre $ 500
     const baseAmount = subtotal + shipping;
     const tax = baseAmount * 0.18; // IGV 18%
     const finalTotal = baseAmount + tax;
@@ -160,8 +160,8 @@ const PurchaseOrderModal: React.FC<PurchaseOrderModalProps> = ({ isOpen, onClose
       
       doc.text(productName.length > 30 ? productName.substring(0, 30) + '...' : productName, 22, yPosition + 5);
       doc.text(quantity.toString(), 125, yPosition + 5);
-      doc.text(`S/ ${price.toFixed(2)}`, 142, yPosition + 5);
-      doc.text(`S/ ${itemSubtotal.toFixed(2)}`, 172, yPosition + 5);
+      doc.text(`$ ${price.toFixed(2)}`, 142, yPosition + 5);
+      doc.text(`$ ${itemSubtotal.toFixed(2)}`, 172, yPosition + 5);
       
       yPosition += 8;
     });
@@ -174,11 +174,11 @@ const PurchaseOrderModal: React.FC<PurchaseOrderModalProps> = ({ isOpen, onClose
     // Resumen de totales
     doc.setFont('helvetica', 'normal');
     doc.text(`Subtotal:`, 140, yPosition);
-    doc.text(`S/ ${cartCalculations.subtotal.toFixed(2)}`, 170, yPosition);
+    doc.text(`$ ${cartCalculations.subtotal.toFixed(2)}`, 170, yPosition);
     yPosition += 7;
     
     doc.text(`Envío:`, 140, yPosition);
-    doc.text(`S/ ${cartCalculations.shipping.toFixed(2)}`, 170, yPosition);
+    doc.text(`$ ${cartCalculations.shipping.toFixed(2)}`, 170, yPosition);
     if (cartCalculations.shipping === 0) {
       doc.setTextColor(0, 150, 0);
       doc.text(`(Gratis)`, 185, yPosition);
@@ -187,14 +187,14 @@ const PurchaseOrderModal: React.FC<PurchaseOrderModalProps> = ({ isOpen, onClose
     yPosition += 7;
     
     doc.text(`IGV (18%):`, 140, yPosition);
-    doc.text(`S/ ${cartCalculations.tax.toFixed(2)}`, 170, yPosition);
+    doc.text(`$ ${cartCalculations.tax.toFixed(2)}`, 170, yPosition);
     yPosition += 10;
     
     // Total final
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(12);
     doc.text(`TOTAL:`, 140, yPosition);
-    doc.text(`S/ ${cartCalculations.finalTotal.toFixed(2)}`, 170, yPosition);
+    doc.text(`$ ${cartCalculations.finalTotal.toFixed(2)}`, 170, yPosition);
     
     // Footer
     yPosition += 20;
@@ -436,11 +436,11 @@ const PurchaseOrderModal: React.FC<PurchaseOrderModalProps> = ({ isOpen, onClose
                 </div>
                 <div className="flex justify-between">
                   <span>Subtotal:</span>
-                  <span>S/ {cartCalculations.subtotal.toFixed(2)}</span>
+                  <span>$ {cartCalculations.subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-semibold">
                   <span>Total:</span>
-                  <span>S/ {cartCalculations.finalTotal.toFixed(2)}</span>
+                  <span>$ {cartCalculations.finalTotal.toFixed(2)}</span>
                 </div>
               </div>
             </div>

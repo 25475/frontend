@@ -135,10 +135,10 @@ export default function CartItems({ items, onUpdateQuantity, onRemoveItem }: Car
                   {/* Precio */}
                   <div className="text-center md:text-right">
                     <div className="text-lg font-bold text-gray-800">
-                      {item.price ? `S/ ${Number(item.price).toFixed(2)}` : 'Consultar'}
+                      {item.price ? `$ ${Number(item.price).toFixed(2)}` : 'Consultar'}
                     </div>
                     <div className="text-sm text-gray-500">
-                      Subtotal: S/ {(Number(item.price || 0) * Number(item.quantity || 1)).toFixed(2)}
+                      Subtotal: $ {(Number(item.price || 0) * Number(item.quantity || 1)).toFixed(2)}
                     </div>
                   </div>
 

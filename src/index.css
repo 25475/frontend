@@ -1,5 +1,8 @@
 /* Import project global rules (hero carousel, cards, etc.) */
 @import './styles/globals.css';
+@import './styles/mission-vision-values.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;

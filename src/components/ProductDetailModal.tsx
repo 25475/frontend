@@ -51,6 +51,29 @@ export default function ProductDetailModal({ open, product, onClose } : { open: 
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
             <p className="text-gray-700 mb-4">{product.description}</p>
+            
+            {/* Mostrar características como lista con viñetas */}
+            {product.features && (
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold mb-2 text-gray-800">Características:</h3>
+                <ul className="list-disc list-inside space-y-1 text-gray-700">
+                  {Array.isArray(product.features) ? (
+                    product.features.map((feature: string, index: number) => (
+                      <li key={index} className="pl-2">{feature}</li>
+                    ))
+                  ) : typeof product.features === 'string' ? (
+                    product.features.split('\n').filter((f: string) => f.trim()).map((feature: string, index: number) => (
+                      <li key={index} className="pl-2">{feature.trim()}</li>
+                    ))
+                  ) : (
+                    Object.entries(product.features).map(([key, value], index) => (
+                      <li key={index} className="pl-2">{typeof value === 'string' ? value : `${key}: ${value}`}</li>
+                    ))
+                  )}
+                </ul>
+              </div>
+            )}
+            
             <div className="text-xl font-semibold text-cyan-600 mb-4">{product.price ? `S/${product.price}` : 'Consultar precio'}</div>
 
             <div className="mb-4 flex items-center gap-4">

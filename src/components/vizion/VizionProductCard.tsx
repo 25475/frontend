@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { useFlyingProduct } from '../contexts/FlyingProductContext'
-import { useCart } from '../contexts/CartContext'
+import { useFlyingProduct } from '../../contexts/FlyingProductContext'
+import { useCart } from '../../contexts/CartContext'
 import { Link } from 'react-router-dom'
-import { normalizeImageUrl } from '../utils/api'
+import { normalizeImageUrl } from '../../utils/api'
 
-export default function ProductCard({
+export default function VizionProductCard({
   title,
   color,
-  
+  description,
   price,
   image,
   slug,
@@ -46,7 +46,7 @@ export default function ProductCard({
         title,
         price: numericPrice,
         image,
-        
+        description,
         slug,
         color
       }
@@ -55,7 +55,7 @@ export default function ProductCard({
       
       // Triggerar animación de vuelo SOLAMENTE, no abrir modal
       const buttonElement = event.currentTarget
-  triggerFlyAnimation(buttonElement, normalizeImageUrl(image) || undefined, title)
+      triggerFlyAnimation(buttonElement, normalizeImageUrl(image) || undefined, title)
       
       // Feedback visual exitoso
       setTimeout(() => {
@@ -115,14 +115,16 @@ export default function ProductCard({
       </div>
 
       <div className="flex-grow">
-        <h4 className="font-semibold text-gray-800 mb-1 text-sm line-clamp-2 group-hover:text-orange-600 transition-colors">
+        <h4 className="font-semibold text-gray-800 mb-1 text-sm line-clamp-2 group-hover:text-blue-600 transition-colors">
           {title}
         </h4>
         
         
-      </div>      {price && (
+      </div>
+
+      {price && (
         <div className="mb-2 sm:mb-3">
-          <div className="text-sm sm:text-base font-bold text-orange-600">
+          <div className="text-sm sm:text-base font-bold text-blue-600">
             {formatPrice(price)}
           </div>
         </div>
@@ -160,7 +162,7 @@ export default function ProductCard({
               ? 'bg-green-500 text-white'
               : productInCart
                 ? 'bg-green-100 hover:bg-green-200 text-green-700'
-                : 'bg-orange-500 hover:bg-orange-600 text-white hover:shadow-lg'
+                : 'bg-blue-500 hover:bg-blue-600 text-white hover:shadow-lg'
           }`}
         >
           {isAdding ? (

@@ -238,10 +238,10 @@ export default function CartModal({ isOpen, onClose }: CartModalProps) {
                         <div className="flex flex-col items-end gap-2 min-w-0">
                           <div className="text-right">
                             <div className="font-bold text-gray-800 text-sm sm:text-base">
-                              S/ {Number(item.price || 0).toFixed(2)}
+                              $ {Number(item.price || 0).toFixed(2)}
                             </div>
                             <div className="text-xs sm:text-sm text-gray-500">
-                              Subtotal: S/ {(Number(item.price || 0) * Number(item.quantity || 1)).toFixed(2)}
+                              Subtotal: $ {(Number(item.price || 0) * Number(item.quantity || 1)).toFixed(2)}
                             </div>
                           </div>
 
@@ -360,13 +360,13 @@ export default function CartModal({ isOpen, onClose }: CartModalProps) {
                   <div className="space-y-2 sm:space-y-3 border-t border-gray-300 pt-3 sm:pt-4">
                     <div className="flex justify-between text-xs sm:text-sm">
                       <span className="text-gray-600">Subtotal:</span>
-                      <span className="font-medium">S/ {subtotal.toFixed(2)}</span>
+                      <span className="font-medium">$ {subtotal.toFixed(2)}</span>
                     </div>
 
                     {appliedCoupon && (
                       <div className="flex justify-between text-xs sm:text-sm text-green-600">
                         <span>Descuento ({appliedCoupon.discount}%):</span>
-                        <span className="font-medium">-S/ {discount.toFixed(2)}</span>
+                        <span className="font-medium">-$ {discount.toFixed(2)}</span>
                       </div>
                     )}
 
@@ -377,17 +377,17 @@ export default function CartModal({ isOpen, onClose }: CartModalProps) {
                           <span className="text-green-600 ml-1">(Gratis)</span>
                         )}
                       </span>
-                      <span className="font-medium">S/ {shipping.toFixed(2)}</span>
+                      <span className="font-medium">$ {shipping.toFixed(2)}</span>
                     </div>
 
                     <div className="flex justify-between text-xs sm:text-sm">
                       <span className="text-gray-600">IVA (15%):</span>
-                      <span className="font-medium">S/ {tax.toFixed(2)}</span>
+                      <span className="font-medium">$ {tax.toFixed(2)}</span>
                     </div>
 
                     {shipping > 0 && (
                       <div className="text-xs text-gray-500 bg-blue-50 p-2 rounded">
-                        💡 ¡Envío gratis en compras mayores a S/ 500!
+                        💡 ¡Envío gratis en compras mayores a $ 500!
                       </div>
                     )}
                   </div>
@@ -397,7 +397,7 @@ export default function CartModal({ isOpen, onClose }: CartModalProps) {
                     <div className="flex justify-between items-center mb-3 sm:mb-4">
                       <span className="text-base sm:text-lg font-semibold text-gray-800">Total:</span>
                       <span className="text-lg sm:text-xl font-bold text-cyan-600">
-                        S/ {finalTotal.toFixed(2)}
+                        $ {finalTotal.toFixed(2)}
                       </span>
                     </div>
 

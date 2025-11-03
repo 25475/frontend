@@ -54,10 +54,22 @@ function ServiceCard({ image, title, description, link }: ServiceCardProps) {
 export default function Services() {
   const services = [
     {
+      image: planesImg,
+      title: 'Planes de Internet',
+      description: 'Planes de fibra óptica con las mejores velocidades',
+      link: '#planes'
+    },
+    {
       image: seguridadImg,
       title: 'Seguridad Vision',
       description: 'Cámaras IP, DVR/NVR y sistemas de vigilancia',
       link: '/vision'
+    }, 
+   {
+      image: domoticaImg,
+      title: 'Domótica',
+      description: 'Automatización inteligente para tu hogar o negocio',
+      link: '/sobre'
     },
     {
       image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?w=600&h=400&fit=crop',
@@ -65,24 +77,14 @@ export default function Services() {
       description: 'Computadoras, componentes y periféricos',
       link: '/novatec'
     },
-    {
-      image: planesImg,
-      title: 'Planes de Internet',
-      description: 'Planes de fibra óptica con las mejores velocidades',
-      link: '#planes'
-    },
+    
     {
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
       title: 'Soporte Técnico',
       description: 'Asistencia 24/7 para todos nuestros servicios',
       link: '/sobre'
     },
-    {
-      image: domoticaImg,
-      title: 'Domótica',
-      description: 'Automatización inteligente para tu hogar o negocio',
-      link: '/sobre'
-    }
+
   ]
 
   return (

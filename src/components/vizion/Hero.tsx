@@ -69,7 +69,7 @@ export default function Hero(){
     <section 
       className="vision-hero-bg relative min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] flex items-center responsive-bg"
       style={{
-        backgroundImage: "url('/src/Image/Productos/telefon.jpg')",
+        backgroundImage: "url('/src/Image/vizion/telefon.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center top 13px',
         backgroundRepeat: 'no-repeat'

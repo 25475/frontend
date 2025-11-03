@@ -14,7 +14,7 @@ export default function InternetFeatures() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="h-64 bg-gray-100 overflow-hidden">
               <img 
-                src="/src/Image/sobre nosotros/Red de fibra optica.webp" 
+                src="/src/Image/sobrenosotros/Red de fibra optica.webp" 
                 alt="fibra optica" 
                 className="w-full h-full object-cover" 
               />
@@ -33,7 +33,7 @@ export default function InternetFeatures() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="h-64 bg-gray-100 overflow-hidden">
               <img 
-                src="/src/Image/sobre nosotros/videojuego.jpg" 
+                src="/src/Image/sobrenosotros/videojuego.jpg" 
                 alt="videojuegos y streaming" 
                 className="w-full h-full object-cover" 
               />
@@ -52,7 +52,7 @@ export default function InternetFeatures() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="h-64 bg-gray-100 overflow-hidden">
               <img 
-                src="/src/Image/sobre nosotros/Radiofrecuencia.avif" 
+                src="/src/Image/sobrenosotros/Radiofrecuencia.avif" 
                 alt="sin interferencia" 
                 className="w-full h-full object-cover" 
               />

@@ -4,7 +4,7 @@ const FeatureItem = ({title, desc, imageSrc, imageAlt}:{title:string, desc:strin
   <div className="flex flex-col items-center text-center px-8 py-6 group">
     <div className="feature-icon mb-8 relative">
       {/* Efecto de brillos de fondo */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-orange-400/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 scale-150"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-blue-400/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 scale-150"></div>
       
       {/* Contenedor de imagen principal */}
       <div className="relative w-48 h-48 rounded-full overflow-hidden shadow-2xl border-4 border-blue-500 bg-gradient-to-br from-blue-50 to-blue-100 transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-blue-500/40 group-hover:border-blue-400">
@@ -35,15 +35,15 @@ export default function Features(){
       {/* Fondo con efectos tecnológicos */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 via-blue-50/30 to-white">
         {/* Líneas tecnológicas de fondo */}
-        <div className="absolute top-0 left-0 w-full h-full opacity-10">
+          <div className="absolute top-0 left-0 w-full h-full opacity-10">
           <div className="absolute top-1/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
-          <div className="absolute top-2/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent"></div>
+          <div className="absolute top-2/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
           <div className="absolute top-3/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
         </div>
         
         {/* Círculos decorativos */}
-        <div className="absolute top-10 right-10 w-32 h-32 bg-blue-400/10 rounded-full blur-xl"></div>
-        <div className="absolute bottom-10 left-10 w-40 h-40 bg-orange-400/10 rounded-full blur-xl"></div>
+  <div className="absolute top-10 right-10 w-32 h-32 bg-blue-400/10 rounded-full blur-xl"></div>
+  <div className="absolute bottom-10 left-10 w-40 h-40 bg-blue-400/10 rounded-full blur-xl"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -53,7 +53,7 @@ export default function Features(){
             <span className="text-gray-800">¿Por qué elegir </span>
             <span className="text-blue-500 relative">
               Vizion
-              <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-orange-500 rounded-full"></div>
+              <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
             </span>
             <span className="text-gray-800">?</span>
           </h3>
@@ -65,9 +65,9 @@ export default function Features(){
           <div className="flex items-center justify-center mt-6 space-x-2">
             <div className="w-8 h-px bg-gradient-to-r from-transparent to-blue-500"></div>
             <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <div className="w-16 h-px bg-gradient-to-r from-blue-500 to-orange-500"></div>
-            <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-            <div className="w-8 h-px bg-gradient-to-l from-transparent to-orange-500"></div>
+            <div className="w-16 h-px bg-gradient-to-r from-blue-500 to-blue-600"></div>
+            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+            <div className="w-8 h-px bg-gradient-to-l from-transparent to-blue-600"></div>
           </div>
         </div>
 
@@ -101,8 +101,8 @@ export default function Features(){
             <div className="w-12 h-px bg-gradient-to-r from-transparent to-blue-500"></div>
             <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
             <div className="w-6 h-px bg-blue-500"></div>
-            <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse delay-300"></div>
-            <div className="w-12 h-px bg-gradient-to-l from-transparent to-orange-500"></div>
+            <div className="w-3 h-3 bg-blue-600 rounded-full animate-pulse delay-300"></div>
+            <div className="w-12 h-px bg-gradient-to-l from-transparent to-blue-600"></div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ProductCard from '../../components/ProductCard'
+import VizionProductCard from './VizionProductCard'
 import ProductDetailModal from '../../components/ProductDetailModal'
 
 export default function ProductGrid({products}:{products:any[]}){
@@ -9,10 +9,10 @@ export default function ProductGrid({products}:{products:any[]}){
     <>
     <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 flex-1">
         {products.map(p=> (
-          <ProductCard 
+          <VizionProductCard 
             key={p.id} 
             title={p.name} 
-            color="#ff7a00" 
+            color="#001effff" 
             description={p.description||''} 
             price={p.price ? String(p.price) : undefined} 
             image={p.imageUrl} 

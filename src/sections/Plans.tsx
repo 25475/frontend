@@ -85,7 +85,7 @@ function PlanCard({name, price, description, features, isPopular, imageUrl}:{nam
         {/* Precio */}
         <div className="mb-3">
           <p className="text-sm text-gray-600">Precio regular</p>
-          <p className={`text-5xl font-bold ${colors.ring === 'ring-green-400' ? 'text-green-600' : colors.ring === 'ring-rose-400' ? 'text-rose-600' : 'text-cyan-600'}`}>S/{price}</p>
+          <p className={`text-5xl font-bold ${colors.ring === 'ring-green-400' ? 'text-green-600' : colors.ring === 'ring-rose-400' ? 'text-rose-600' : 'text-cyan-600'}`}>${price}</p>
         </div>
         
         {/* Velocidad adicional */}
@@ -108,7 +108,7 @@ function PlanCard({name, price, description, features, isPopular, imageUrl}:{nam
       {/* Footer */}
       <div className="px-6 pb-6">
         <p className="text-xs text-gray-500 mb-4">
-          Costo de Instalación: <span className="font-semibold">S/0</span> (previa evaluación)
+          Costo de Instalación: <span className="font-semibold">$0</span> (previa evaluación)
         </p>
         
         <Link to="/planes" className={`${colors.ring === 'ring-green-400' ? 'text-green-500 hover:text-green-600' : colors.ring === 'ring-rose-400' ? 'text-rose-500 hover:text-rose-600' : 'text-cyan-500 hover:text-cyan-600'} text-sm font-medium flex items-center gap-1 mb-4`}>
