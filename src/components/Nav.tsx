@@ -102,8 +102,9 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
 
   return (
     <>
-      {/* Desktop Navigation */}
-      <nav className="hidden md:flex items-center space-x-10">
+  {/* Desktop Navigation */}
+  {/* Forzar fondo blanco en escritorio independientemente del header transparente */}
+  <nav className="hidden md:flex items-center space-x-10 md:bg-white md:bg-opacity-95 md:backdrop-blur-sm md:shadow-lg md:rounded-xl md:px-4 md:py-2 md:border md:border-gray-100">
         {navLinks.map((link) => (
           <Link 
             key={link.to}
@@ -177,17 +178,16 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}>
             
-            {/* Header del menú - SIEMPRE IGUAL */}
-            {/* El panel móvil siempre debe tener cabeza blanca para mayor legibilidad */}
-            <div className={`bg-white p-6 shadow-lg`}>
+            {/* Header del menú - estilo degradado azul (como en la captura) */}
+            <div className={`bg-gradient-to-r from-cyan-500 to-blue-600 p-6 shadow-lg`}>
               <div className="flex justify-between items-center">
                 <div>
-                  <h2 className={`text-xl font-bold text-gray-800`}>Menú</h2>
-                  <p className={`text-gray-600 text-sm mt-1`}>Navegación principal</p>
+                  <h2 className={`text-xl font-bold text-white`}>Menú</h2>
+                  <p className={`text-cyan-100 text-sm mt-1`}>Navegación principal</p>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-800 transition-all duration-200 hover:scale-105`}>
+                  className={`p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-all duration-200 hover:scale-105`}>
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
@@ -202,12 +202,12 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
                   key={link.to}
                   to={link.to}
                   className={`group relative px-6 py-4 mb-2 text-base font-medium
-                    rounded-xl transition-all duration-200 flex items-center space-x-4
-                    hover:shadow-lg hover:scale-[1.02] ${
-                    location.pathname === link.to 
-                      ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg' 
-                      : 'text-gray-700 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 hover:text-white'
-                  }`}
+                      rounded-xl transition-all duration-200 flex items-center space-x-4
+                      hover:shadow-sm hover:scale-[1.01] ${
+                      location.pathname === link.to 
+                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg' 
+                        : 'text-gray-800 hover:bg-gray-50 hover:text-gray-900'
+                    }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <span className="text-2xl group-hover:scale-110 transition-transform duration-200">
@@ -215,17 +215,16 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
                   </span>
                   <span className="flex-1 font-semibold">{link.label}</span>
                   {location.pathname === link.to && (
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                    <div className="w-3 h-3 bg-white rounded-full shadow-sm"></div>
                   )}
                 </Link>
               ))}
               <a
                 href="#contacto"
                 onClick={handleContactClick}
-                className="group relative px-6 py-4 mb-2 text-base font-medium text-gray-700
+                className="group relative px-6 py-4 mb-2 text-base font-medium text-gray-800
                   rounded-xl transition-all duration-200 flex items-center space-x-4
-                  hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 hover:text-white
-                  hover:shadow-lg hover:scale-[1.02]"
+                  hover:bg-gray-50 hover:text-gray-900 hover:shadow-sm hover:scale-[1.01]"
               >
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-200">📞</span>
                 <span className="flex-1 font-semibold">CONTACTO</span>
@@ -233,10 +232,11 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
             </nav>
 
             {/* Elemento decorativo - SIEMPRE PRESENTE */}
-            <div className={`${isSmallScreen ? 'hidden' : 'absolute top-1/2 left-0 w-1 h-16 bg-gradient-to-b from-cyan-400 to-blue-500 rounded-r-full opacity-30'}`}></div>
+            {/* Decorative stripe hidden on mobile to avoid visual noise */}
+            <div className="hidden"></div>
 
             {/* Footer - DISEÑO FIJO */}
-            <div className={`${isSmallScreen ? 'absolute bottom-0 left-0 right-0 p-6 bg-white border-t border-gray-100' : 'absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-gray-50 to-transparent border-t border-gray-100'}`}>
+            <div className={`absolute bottom-0 left-0 right-0 p-6 bg-white border-t border-gray-100`}>
               <div className="text-center">
                 <p className="text-gray-600 text-sm font-medium mb-2">
                   🚀 Tecnología avanzada

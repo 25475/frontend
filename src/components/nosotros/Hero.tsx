@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import heroImg from '../../Image/sobre nosotros/header.jpg'
+import heroImg from '../../Image/sobrenosotros/header.jpg'
 
 export default function Hero() {
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
