@@ -1,0 +1,141 @@
+.vizion-theme {
+  /* Palette */
+  --v-blue: #1976D2; /* Azul principal */
+  --v-lead-gray: #424242; /* Gris plomo */
+  --v-white: #FFFFFF; /* Blanco puro */
+  --v-light-gray: #BDBDBD; /* Gris claro */
+  --v-blue-gray: #607D8B; /* Azul grisáceo */
+}
+
+/* Hero section */
+.vizion-theme .vizion-hero h2{ color: var(--v-lead-gray); }
+.vizion-theme .vizion-hero .text-v-blue { color: var(--v-blue); }
+.vizion-theme .vizion-hero .text-muted { color: var(--v-blue-gray); }
+.vizion-theme .hero-btn-primary{ background: var(--v-white) !important; color: var(--v-blue) !important; padding: 14px 28px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); border: none; text-decoration: none; }
+.vizion-theme .hero-btn-outline{ background: transparent; color: var(--v-blue); padding: 14px 28px; border-radius: 8px; border: 2px solid rgba(25,118,210,0.15); }
+
+.vizion-theme .hero-card{ width: 420px; max-width: 90%; background: var(--v-white); border: 1px solid var(--v-light-gray); box-shadow: 0 18px 50px rgba(66,66,66,0.06); border-radius: 12px; padding: 56px; position: relative; }
+.vizion-theme .hero-image{ width: 100%; height: 260px; display:flex; align-items:center; justify-content:center; }
+.vizion-theme .hero-badge{ position:absolute; bottom: -18px; left: 32px; background: var(--v-white); border-radius: 12px; padding: 10px 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); color: var(--v-lead-gray); font-weight:600; }
+
+/* Features section */
+.vizion-theme .vizion-features { padding-top: 8px; padding-bottom: 8px; }
+.vizion-theme .vizion-features .feature-icon{ width:64px; height:64px; display:flex; align-items:center; justify-content:center; background: linear-gradient(180deg, rgba(25,118,210,0.12), rgba(25,118,210,0.08)); border-radius:9999px; color: var(--v-blue); }
+.vizion-theme .vizion-features h4{ color: var(--v-lead-gray); }
+.vizion-theme .vizion-features .text-muted{ color: var(--v-blue-gray); }
+
+
+
+/* Section background and title */
+.vizion-theme .container > h1 {
+  color: var(--v-lead-gray);
+}
+
+/* Title used before categories */
+.vizion-theme .productos-title {
+  color: var(--v-lead-gray);
+}
+
+/* Category tabs */
+.vizion-theme .category-active {
+  color: var(--v-blue) !important;
+  border-color: var(--v-blue) !important;
+}
+.vizion-theme .category-vertical-active {
+  background: var(--v-blue);
+  color: var(--v-white);
+}
+
+/* Cards */
+.vizion-theme .card {
+  background: var(--v-white);
+  border: 1px solid var(--v-light-gray);
+}
+.vizion-theme .card .product-title {
+  color: var(--v-lead-gray);
+}
+.vizion-theme .card .product-price {
+  color: var(--v-blue);
+  font-weight: 600;
+}
+
+/* Vizion-specific card look to match the provided screenshot */
+.vizion-theme .card {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(16,24,40,0.06);
+  overflow: hidden;
+}
+.vizion-theme .card p, .vizion-theme .card .text-muted { color: var(--v-blue-gray); }
+.vizion-theme .card .w-full.h-40 { height: 220px !important; }
+.vizion-theme .card .product-price { font-size: 1.375rem; font-weight: 700; color: var(--v-blue); }
+.vizion-theme .card .product-details-btn { background: transparent; border: 1px solid rgba(66,66,66,0.06); color: var(--v-lead-gray); padding: 10px 14px; border-radius: 8px; }
+.vizion-theme .card .product-add-btn { background: var(--v-blue); color: var(--v-white); padding: 10px 14px; border-radius: 8px; }
+.vizion-theme .card img { display:block; width:100%; height:100%; object-fit:contain; }
+
+/* Buttons inside Vizion */
+.vizion-theme .product-details-btn {
+  background: var(--v-blue);
+  color: var(--v-white);
+}
+.vizion-theme .product-add-btn {
+  border-color: var(--v-blue);
+  color: var(--v-blue);
+}
+
+/* Inputs and modal elements */
+.vizion-theme input, .vizion-theme textarea {
+  border-color: var(--v-light-gray);
+}
+.vizion-theme .modal-actions .btn-primary {
+  background: var(--v-blue);
+  color: var(--v-white);
+}
+
+/* Subtle accents */
+.vizion-theme .text-muted {
+  color: var(--v-blue-gray);
+}
+
+/* CTA blue section */
+.vizion-theme .vizion-cta { background: var(--v-blue); border-radius: 0; margin-top: 2rem; margin-bottom: 0; }
+.vizion-theme .vizion-cta h3 { color: var(--v-white); }
+.vizion-theme .vizion-cta p { color: rgba(255,255,255,0.85); }
+.vizion-theme .cta-btn-primary { background: var(--v-white); color: var(--v-blue); padding: 12px 28px; border-radius: 8px; font-weight:600; display:inline-block; }
+.vizion-theme .cta-btn-outline { background: transparent; color: var(--v-white); padding: 12px 28px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.2); display:inline-block; }
+
+/* When the site footer follows the vizion-theme, remove the footer top margin so CTA and footer sit flush */
+.vizion-theme ~ footer { margin-top: 0 !important; }
+
+/* Make CTA flush with footer: remove bottom border radius so they align visually */
+.vizion-theme .vizion-cta { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+/* Make CTA span full-bleed when placed outside container */
+.vizion-cta { width: 100%; padding-left: 0; padding-right: 0; }
+.vizion-cta .container { padding-left: 1rem; padding-right: 1rem; }
+/* Ensure CTA has background when outside .vizion-theme (full-bleed) */
+.vizion-cta { background: #1976D2; }
+
+/* When CTA is full-bleed (outside .vizion-theme), ensure buttons keep the intended styles */
+.vizion-cta .cta-btn-primary {
+  /* Use explicit colors because CSS variables are scoped to .vizion-theme and
+     CTA is rendered outside that scope */
+  background: #ffffff !important;
+  color: #1976D2 !important;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+}
+.vizion-cta .cta-btn-outline {
+  background: transparent;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255,0.2);
+  display: inline-block;
+}
+
+/* When the vizion section is used, make the following footer sit flush (no top margin) */
+.vizion-section + footer { margin-top: 0 !important; }
+

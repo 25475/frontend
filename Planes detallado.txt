@@ -1,0 +1,290 @@
+PRODUCTOS SYSTRAY
+REGULADOR DE VOLTAJE FORZA 1000VA ModFVR-1011-USB
+Características principales • Regulador Automático de Voltaje (AVR) • Detecta y corrige en forma instantánea el voltaje de salida al controlar constantemente la tensión de entrada. • Unidad compacta que ofrece protección eléctrica para todos sus periféricos y aparatos electrónicos delicados • Dos puertos USB, ideales para cargar teléfonos inteligentes, tabletas y otros dispositivos móviles (para el FVR-1011USB solamente) • Prácticos LEDs exhiben el estado funcional de la unidad • Termofusible de protección incorporada-- desconecta la corriente cuando el voltaje de entrada se eleva a niveles potencialmente perjudiciales • Se puede instalar en la pared, en posición vertical u horizontal
+ 
+UPS DE 600 VA 360W 6 TOMAS HIKVISION
+Características principales
+·         Capacidad: 600 VA / 360 W
+·         Batería: 12 V / 7 Ah
+·         6 Salidas totales (4 con respaldo y 2 sin respaldo)
+·         Peso: 4.2 Kg
+·         Voltaje de entrada: 85 - 150 V ~ 50/60 Hz
+·         Voltaje de salida: 102 - 132 V.
+·         Dimensiones: 274 x 95 x 139 mm
+·         Tabla de referencia de consumo en watts (aprox.)
+15 Watts: 180 minutos
+32 Watts: 80 minutos
+42 Watts: 65 minutos
+55 Watts: 48 minutos
+65 Watts: 35 minutos
+
+ 
+PROTECTOR DE VOLTAJE -REFRIMATIC- POWEST
+Los protectores de voltaje Powest Refrimatic están diseñado para proteger sus equipos de refrigeración como neveras y nevecones en capacidades hasta de 800 Litros, protección de voltaje desconexión por alto y bajo voltaje, ciclo de espera de 4 minutos toma de salida nema 5-15r.Protector automático de voltaje de fácil instalación.
+Protección para apagones
+Desconexion por alto o bajo voltaje 
+Protección contra picos de voltaje
+Toma frontal
+Rango de condición normal 100-130VAC
+Capacidad: 1200W
+Capacidad de energía máxima 10A a 120 VAC
+
+ 
+PROTECTOR DE VOLTAJE -MULTIMATIC- POWEST
+Los protectores de voltaje Powest Multimatic están diseñado para proteger Electrodomésticos en general, computadoras, Videoconsolas, DVD, Equipos de sonido, mini-componentes, protección de mini cortes de energía, Voltajes bajos, apagones, supresor de picos de voltaje con varistor, ciclo de espera de 30 segundos toma de salida nema 5-15r.Protector automático de voltaje de fácil instalación.
+Protección para apagones
+Desconexion por alto o bajo voltaje 
+Protección contra picos de voltaje
+Toma frontal
+Rango de condición normal 100-130VAC
+Capacidad: 1200W
+Capacidad de energía máxima 10A a 120 VAC
+ 
+
+ROUTER TPLINK EC-225G
+Wi-Fi más rápido para más dispositivos: Las bandas de 2,4 GHz y 5 GHz funcionan a velocidades Wi-Fi AC1300 rápidas para ofrecer mayor ancho de banda y compatibilidad con más dispositivos en tu hogar.
+Puertos Gigabit completos: Disfruta de conexiones por cable rápidas y fiables para jugar y transmitir con la mejor calidad.
+Cobertura extensa: La formación de haces y cuatro antenas se combinan para ofrecer una recepción enfocada a dispositivos distantes.
+Compatible con EasyMesh: Ofrece cobertura Wi-Fi para toda la casa con tecnología de malla estándar
+Protección mejorada: Protege tu red con firewalls, controles parentales y el cifrado WPA3 más reciente.
+Configuración sencilla: Configura tu router en minutos con la intuitiva interfaz web o la potente aplicación Aginet.
+Administración remota: Compatible con TR-181, TR-111, TR-104 y TR-143.
+
+ 
+
+
+
+ROUTER TIPO CUBO TPLINK HC220 WIFI 5
+ 
+Wi-Fi 5 AC1200 – Conectividad Dual-Banda para el Hogar Conectado:
+Hasta 867 Mbps en 5 GHz y 300 Mbps en 2.4 GHz.
+Compatible con 802.11ac/n/a/b/g y tecnologías como MU-MIMO, TX Beamforming, Airtime Fairness, WMM, Multi-SSID (hasta 4 por banda), Red de Invitados y seguridad WPA/WPA2/WPA3 (Personal y Enterprise).
+Cobertura Inteligente con EasyMesh:
+Compatible con el estándar EasyMesh (802.11k/v/r), permite crear una red Mesh con roaming continuo, autorecuperación de enlace, diagnóstico Wi-Fi y separación automática de tráfico.
+Conectividad Gigabit Completa – WAN y LAN para Streaming Estable:
+Incluye 1 puerto WAN/LAN Gigabit y 2 puertos LAN Gigabit.
+Soporta Dynamic IP, Static IP, PPPoE, PPTP, L2TP y modo Bridge (Multi-WAN).
+Ideal para hogares con FTTH o redes mixtas cableadas.
+Diseño Compacto con Procesador Dual-Core:
+Diseño cuadrado y discreto (100 × 100 × 89.5 mm), con CPU Dual-Core a 1 GHz, antenas internas y bajo consumo (12V/1A).
+Ideal como AP Mesh para hogares u oficinas pequeñas.
+Aplicaciones y Funcionalidades Avanzadas:
+Incluye Control Parental, QoS, IPSEC VPN, Firewall SPI/DoS, IP y MAC Binding, Port Forwarding, NAT Forwarding, IPTV (IGMP v2/v3, Snooping), IPv6, estadísticas de tráfico, diagnóstico de red, LED/Wi-Fi Schedule y Cloud Firmware Upgrade.
+Aplicación Aginet:
+Aplicación para el cliente final disponible en iOS y Android que permite configurar y gestionar el equipo fácilmente, aportando valor añadido al ISP al mejorar la experiencia de usuario.
+Configuración Rápida y Sencilla:
+Con AginetConfig, cargue archivos de configuración desde la app o mediante TFTP, evitando que la configuración se pueda resetear por el cliente.
+Gestión Remota Profesional:
+Compatible con TR-069, TR-181, TR-111, TR-143 y TR-369 (USP).
+Permite gestión vía WebGUI, Aginet App, HTTPS, SNMP y nube.
+Compatibilidad con la Plataforma de Gestión TAUC:
+Totalmente compatible con TAUC (TP-Link Aginet Unified Cloud), que permite diagnóstico remoto, soporte proactivo, aprovisionamiento masivo y Wi-Fi Analytics.
+ROUTER TIPO CUBO TP-LINK HX220 WIFI 6
+Wi-Fi 6 AX1800 – Conectividad Rápida y Estable para Todo el Hogar:
+Hasta 1201 Mbps en 5 GHz y 574 Mbps en 2.4 GHz.
+Compatible con 1024-QAM, OFDMA, MU-MIMO, Beamforming, Airtime Fairness, Multi-SSID (hasta 4 por banda), Band Steering, Red de Invitados y seguridad WPA/WPA2/WPA3 (Personal y Enterprise).
+Cobertura Avanzada con EasyMesh:
+Compatible con EasyMesh (802.11k/v/r), permite crear una red Mesh inteligente con roaming optimizado, diagnóstico Wi-Fi, selección automática de canal y separación de tráfico.
+Conectividad Gigabit Estable – WAN y LAN Integradas:
+Incluye 1 puerto WAN/LAN Gigabit y 2 puertos LAN Gigabit.
+Compatible con Dynamic IP, Static IP, PPPoE, PPTP, L2TP y modo Bridge (Multi-WAN).
+Ideal para hogares conectados por FTTH o cable de alta velocidad.
+Diseño Compacto y Potente CPU Dual-Core:
+Procesador Dual-Core a 1.0 GHz, antenas internas, diseño vertical y dimensiones reducidas de solo 100 × 100 × 89.5 mm.
+Diseñado para cobertura eficiente y mínimo consumo (12V/1A).
+Aplicaciones y Funcionalidades Avanzadas:
+Incluye Control Parental, QoS, IPSEC VPN, NAT Forwarding, Port Forwarding, Address Reservation, Firewall SPI/DoS, IGMP v2/v3, IPTV, IPv6, programación Wi-Fi, LED Schedule, estadísticas de tráfico, Cloud Firmware Upgrade y diagnóstico de red.
+Aplicación Aginet:
+Aplicación para el cliente final disponible en iOS y Android que permite configurar y gestionar el equipo fácilmente, aportando valor añadido al ISP al mejorar la experiencia de usuario.
+Configuración Rápida y Sencilla:
+Con AginetConfig, cargue archivos de configuración desde la app o mediante TFTP, evitando que la configuración se pueda resetear por el cliente.
+Gestión Remota Profesional:
+Compatible con los estándares TR-069, TR-181, TR-111, TR-143 y TR-369 (USP).
+Admite gestión mediante WebGUI, Aginet App, HTTPS, SNMP y gestión cloud mediante TAUC.
+Compatibilidad con la Plataforma de Gestión TAUC:
+Totalmente compatible con TAUC (TP-Link Aginet Unified Cloud), que incluye Wi-Fi Analytics, gestión masiva, provisión remota y diagnóstico profesional para operadores.
+
+ 
+
+TPLINK DECO M5 (PACK DE 1 HASTA 3 UNIDADES)
+•	Deco utiliza un sistema de unidades para lograr una cobertura de Wi-Fi sin problemas en todo el hogar: ¡elimine las áreas de señal débil de una vez por todas!
+•	Con la avanzada tecnología Deco Mesh, las unidades trabajan juntas para formar una red unificada para todo el hogar con el mismo nombre de red. Los dispositivos cambian automáticamente entre Decos a medida que te mueves por tu casa para obtener las velocidades más rápidas posibles.
+•	Un paquete de tres Deco M5 ofrece Wi-Fi en un área de hasta 5500 pies cuadrados, mientras que un paquete de dos Deco M5 ofrece hasta 3800 pies cuadrados. Y si eso no es suficiente, simplemente agregua más Decos a la red en cualquier momento para aumentar la cobertura.
+•	Deco M5 proporciona conexiones rápidas y estables con velocidades de hasta 1267Mbps y funciona con cualquier proveedor de servicios de Internet (ISP) y módem.
+•	Deco puede manejar el tráfico incluso de las redes más activas, proporcionando conexiones sin demoras para más de 100 dispositivos.
+•	TP-Link HomeCareTM ofrece un conjunto de características personalizadas y seguras, que incluyen controles parentales, antivirus incorporado y calidad de servicio (QoS).
+•	La configuración es más fácil que nunca con la aplicación Deco para guiarte en cada paso.
+
+ 
+TPLINK DECO X50 (PACK DE 1 HASTA 3 UNIDADES)
+•	Wi-Fi AX3000 de Doble Banda. Wi-Fi 6 súper rápido con velocidades de hasta 3.0 Gbps
+•	4 Flujos, Menos Lag. 2×2 / HE160 2402 Mbps + 2×2 574 Mbps
+•	Puertos Gigabit. 3 puertos Gigabit proporcionan alt velocidad por cable
+•	Cobertura sin cortes. La cobertura Wi-Fi Mesh sin interrupciones de hasta 232 m2 (1 unidad)
+•	Wi-Fi Mesh con AI. El sistema Deco aprende del entorno de la red para proporcionar la mejor conectividad optimizada a tu hogar
+•	Seguridad HomeShield TP-Link. Protección integral de la red con controles parentales y protección IoT en tiempo real
+•	Fácil Configuración. Configura tu sistema Deco en pocos minutos con la App Deco
+
+ 
+
+CAMARA UNIARCH 2MP INT UHO-S2
+• Imagen de alta calidad con sensor CMOS de 2 MP y 1/3"
+• 2 MP (1920*1080) a 25/20 fps; 720P (1280*720) a 25/20 fps
+• Ultra 265, H.265, H.264
+• Micrófono y altavoz integrados, compatible con audio bidireccional y una mejor interacción
+• Visión nocturna por infrarrojos con alcance infrarrojo de hasta 10 m (33 pies)
+• Compatible con tarjeta Micro SD de 256 GB
+• Conexión Wi-Fi y fácil instalación
+ 
+
+CAMARA EZVIZ 2MP FIJA  H1C MINI PARA INTERIOR
+•	Resolución 1080p
+•	Lente Gran Angular de 108°
+•	Visión nocturna por infrarrojos (hasta 10 m)
+•	Detección de movimiento
+•	Tres Modos de Alerta Sonora
+•	Modo suspensión para la protección privada
+•	Comunicación Bidireccional
+•	Instalación con base magnética
+•	Integración Inteligente con Google Assistant y Amazon Alexa
+•	Soporta tarjeta MicroSD (hasta 512 GB) y almacenamiento en la nube EZVIZ CloudPlay.²
+ 
+
+CAMARA UNIARCH 3MP EXT PTZ UHO-P1A-M3F4D
+•	Imagen de alta calidad con sensor CMOS de 3 MP y 1/2,8"
+•	2304 x 1296 a 20 fps en la transmisión principal
+•	Ultra 265, H.265, H.264
+•	Compatible con WDR digital (amplio rango dinámico)
+•	Micrófono y altavoz integrados, con audio bidireccional para una mejor interacción
+•	Admite advertencias sonoras y luminosas, lo que hace que las advertencias y alarmas sean más visibles
+•	Infrarrojos inteligentes: hasta 30 m (98 pies) de infrarrojos y 10 m (33 pies) de distancia de luz cálida, ideal para más escenas
+•	Soporte integrado: admite dos tipos de montaje
+•	Compatible con tarjeta Micro SD de 512 GB
+•	Conexión Wi-Fi y fácil instalación
+•	Grado de protección IP66
+•	La parte frontal está hecha de grafito, lo que mejora la disipación del calor y la protección ambiental
+ 
+
+CAMARA INALAMBRICA HOME  TAPO C500 PTZ TP-LINK
+Cámara de Seguridad para exterior con rotación 360°
+•	Vista en vivo Full HD de 1080p: Revela imágenes claras y nítidas con más detalles.
+•	Detección de personas y seguimiento de movimiento: La IA inteligente identifica a una persona mientras sigue el movimiento con rotación de alta velocidad, notificando a los usuarios según sea necesario.
+•	Cobertura visual de 360°: Proporciona un alcance horizontal de 360° y vertical de 130° para cubrir todos los rincones.
+•	Visión nocturna (hasta 7 metros): Garantiza su seguridad al proporcionar una distancia visual clara de hasta 7 metros, incluso en la oscuridad total.
+•	Protección IP65: Ofrece un excelente rendimiento a prueba de agua y polvo para escenarios al aire libre.
+•	Multiples opciones de instalación: Use los tornillos de montaje, la plantilla y los bucles‡ para instalar en cualquier pared, techo o poste para obtener la vista perfecta, donde quiera.
+•	Flexibles opciones de almacenamiento: Guarde los videos grabados en una tarjeta microSD instalada (hasta 512 GB)†, o use el servicio de almacenamiento en la nube Tapo Care**.
+•	Alarma de sonido personalizable: Grabe su audio personalizado como una alarma para ampliar sus usos.
+•	Modo de privacidad física: Mantiene su privacidad con la lente bloqueada físicamente por la carcasa.
+•	Audio bidireccional: Permite la comunicación a través de un micrófono y un altavoz integrados.
+
+ 
+
+
+
+
+
+CAMARA INALAMBRICA INDOOR TAPO 360   C200 TP-LINK
+•	Video de alta definición: captura todos los detalles en una definición nítida de 1080p.
+•	Vista nocturna avanzada: incluso de noche, la cámara puede proporcionar una distancia visual de hasta 30 pies.
+•	Detección de movimiento y notificaciones: recibe una notificación si se detecta algo sospechoso.
+•	Sonido y alarma de luz: disparador de luz y efectos de sonido para ahuyentar a los visitantes no deseados.
+•	Audio bidireccional: comunícate con otros con el micrófono y el altavoz incorporados.
+•	Almacenamiento seguro: admite tarjeta MicroSD (hasta 128 GB).
+
+ 
+
+CERRADURA KADONIO SMART M13
+Formas de apertura :
+•	Huella dactilar
+•	Códigos de acceso ( mediante app tuya smart )
+•	Llaves convencionales
+•	Tarjetas de acceso
+Beneficios de una Cerradura Inteligente 
+1.	Mayor Seguridad 
+Acceso controlado: Puedes decidir quién entra y cuándo, mediante códigos, huellas, tarjetas o apps. 
+Historial de acceso: Algunos modelos registran quién ha entrado y a qué hora. • Cierre automático: Se puede programar para que se cierre automáticamente después de un tiempo. 
+2.	Acceso Remoto 
+Puedes abrir desde tu Smartphone, estés donde estés, útil para recibir visitas o entregas.
+3.	Eliminación de llaves físicas 
+Evita pérdidas o duplicaciones no autorizadas. 
+El acceso puede ser mediante PIN, huella dactilar y tarjetas 
+4.	Gestión de usuarios 
+Permite asignar accesos temporales o permanentes a familiares, empleados o visitantes. 
+Puedes revocar accesos fácilmente desde la aplicación. 
+5.	Notificaciones en tiempo real 
+Recibes alertas cuando la puerta se abre, se fuerza o si alguien intenta acceder sin permiso.
+6.	Diseño moderno y discreto
+Aporta un toque tecnológico y estético a la entrada de tu hogar o negocio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SISTEMAS DE ALARMA INALÁMBRICAS
+ 
+
+•	Kits personalizados que incluyen:
+•	Sensores de apertura
+•	Detectores de movimientos
+•	Sirena
+•	Control de alarma
+•	Botón de pánico
+•	Pantalla LED
+
+CIRCUITO CERRADO DE TELEVISIÓN
+Un sistema de CCTV (Circuito Cerrado de Televisión) ofrece numerosas ventajas, principalmente en seguridad y prevención del delito. Estas ventajas incluyen la disuasión de actividades criminales, la recopilación de pruebas en caso de incidentes, la monitorización en tiempo real, la mejora de la seguridad laboral y la optimización de la productividad. Además, un sistema CCTV puede ayudar a reducir costos asociados con la seguridad física y la necesidad de vigilancia constante. 
+Cotiza tu requerimiento con nosotros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CABLEADO ESTRUCTURADO
+El cableado estructurado se utiliza en una amplia gama de entornos, desde oficinas pequeñas hasta edificios inteligentes y centros de datos. Es la base para la infraestructura de comunicaciones de voz, datos y video en la mayoría de las redes modernas. 
+Cotiza tu requerimiento con nosotros
+ 
+
+
+
+
+
+
+DATOS DE CONTACTO:
+Venta de planes Whatsapp
++593 99 681 6956
+
+Venta de productos 
++593 99 634 8116
+
+RRSS
+https://www.instagram.com/systraysa?igsh=OG00cTBhM2Zid25o
+https://www.facebook.com/share/1G5QYyhUp3/?mibextid=wwXIfr
+
+
+
+

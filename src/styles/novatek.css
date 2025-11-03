@@ -1,0 +1,196 @@
+.novatek-theme {
+  /* Palette */
+  --v-orange: #F57C00; /* Naranja principal */
+  --v-lead-gray: #424242; /* Gris plomo */
+  --v-white: #FFFFFF; /* Blanco puro */
+  --v-light-gray: #BDBDBD; /* Gris claro */
+  --v-blue-gray: #607D8B; /* Azul grisáceo */
+}
+
+/* Hero section */
+.novatek-theme .novatek-hero h2{ color: var(--v-lead-gray); }
+.novatek-theme .novatek-hero .text-v-orange { color: var(--v-orange); }
+.novatek-theme .novatek-hero .text-muted { color: var(--v-blue-gray); }
+.novatek-theme .hero-btn-primary{ background: var(--v-white) !important; color: var(--v-orange) !important; padding: 14px 28px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); border: none; text-decoration: none; }
+.novatek-theme .hero-btn-outline{ background: transparent; color: var(--v-orange); padding: 14px 28px; border-radius: 8px; border: 2px solid rgba(245,124,0,0.15); }
+
+.novatek-theme .hero-card{ width: 420px; max-width: 90%; background: var(--v-white); border: 1px solid var(--v-light-gray); box-shadow: 0 18px 50px rgba(66,66,66,0.06); border-radius: 12px; padding: 56px; position: relative; }
+.novatek-theme .hero-image{ width: 100%; height: 260px; display:flex; align-items:center; justify-content:center; }
+.novatek-theme .hero-badge{ position:absolute; bottom: -18px; left: 32px; background: var(--v-white); border-radius: 12px; padding: 10px 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); color: var(--v-lead-gray); font-weight:600; }
+
+/* Features section */
+.novatek-theme .novatek-features { padding-top: 8px; padding-bottom: 8px; }
+.novatek-theme .novatek-features .feature-icon{ width:64px; height:64px; display:flex; align-items:center; justify-content:center; background: linear-gradient(180deg, rgba(245,124,0,0.12), rgba(245,124,0,0.08)); border-radius:9999px; color: var(--v-orange); }
+.novatek-theme .novatek-features h4{ color: var(--v-lead-gray); }
+.novatek-theme .novatek-features .text-muted{ color: var(--v-blue-gray); }
+
+
+
+/* Section background and title */
+.novatek-theme .container > h1 {
+  color: var(--v-lead-gray);
+}
+
+/* Title used before categories */
+.novatek-theme .productos-title {
+  color: var(--v-lead-gray);
+}
+
+/* Category tabs */
+.novatek-theme .category-active {
+  color: var(--v-orange) !important;
+  border-color: var(--v-orange) !important;
+}
+.novatek-theme .category-vertical-active {
+  background: var(--v-orange);
+  color: var(--v-white);
+}
+
+/* Cards */
+.novatek-theme .card {
+  background: var(--v-white);
+  border: 1px solid var(--v-light-gray);
+}
+.novatek-theme .card .product-title {
+  color: var(--v-lead-gray);
+}
+.novatek-theme .card .product-price {
+  color: var(--v-orange);
+  font-weight: 600;
+}
+
+/* Novatek-specific card look to match the provided screenshot */
+.novatek-theme .card {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(16,24,40,0.06);
+  overflow: hidden;
+}
+.novatek-theme .card p, .novatek-theme .card .text-muted { color: var(--v-blue-gray); }
+.novatek-theme .card .w-full.h-40 { height: 220px !important; }
+.novatek-theme .card .product-price { font-size: 1.375rem; font-weight: 700; color: var(--v-orange); }
+.novatek-theme .card .product-details-btn { background: transparent; border: 1px solid rgba(66,66,66,0.06); color: var(--v-lead-gray); padding: 10px 14px; border-radius: 8px; }
+.novatek-theme .card .product-add-btn { background: var(--v-orange); color: var(--v-white); padding: 10px 14px; border-radius: 8px; }
+.novatek-theme .card img { display:block; width:100%; height:100%; object-fit:contain; }
+
+/* Buttons inside Novatek */
+.novatek-theme .product-details-btn {
+  background: var(--v-orange);
+  color: var(--v-white);
+}
+.novatek-theme .product-add-btn {
+  border-color: var(--v-orange);
+  color: var(--v-orange);
+}
+
+/* Inputs and modal elements */
+.novatek-theme input, .novatek-theme textarea {
+  border-color: var(--v-light-gray);
+}
+.novatek-theme .modal-actions .btn-primary {
+  background: var(--v-orange);
+  color: var(--v-white);
+}
+
+/* Subtle accents */
+.novatek-theme .text-muted {
+  color: var(--v-blue-gray);
+}
+
+/* CTA orange section */
+.novatek-theme .novatek-cta { background: var(--v-orange); border-radius: 0; margin-top: 2rem; margin-bottom: 0; }
+.novatek-theme .novatek-cta h3 { color: var(--v-white); }
+.novatek-theme .novatek-cta p { color: rgba(255,255,255,0.85); }
+.novatek-theme .cta-btn-primary { background: var(--v-white); color: var(--v-orange); padding: 12px 28px; border-radius: 8px; font-weight:600; display:inline-block; }
+.novatek-theme .cta-btn-outline { background: transparent; color: var(--v-white); padding: 12px 28px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.2); display:inline-block; }
+
+/* When the site footer follows the novatek-theme, remove the footer top margin so CTA and footer sit flush */
+.novatek-theme ~ footer { margin-top: 0 !important; }
+
+/* Make CTA flush with footer: remove bottom border radius so they align visually */
+.novatek-theme .novatek-cta { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+/* Make CTA span full-bleed when placed outside container */
+.novatek-cta { width: 100%; padding-left: 0; padding-right: 0; }
+.novatek-cta .container { padding-left: 1rem; padding-right: 1rem; }
+/* Ensure CTA has background when outside .novatek-theme (full-bleed) */
+.novatek-cta { background: #F57C00; }
+
+/* When CTA is full-bleed (outside .novatek-theme), ensure buttons keep the intended styles */
+.novatek-cta .cta-btn-primary {
+  /* Use explicit colors because CSS variables are scoped to .novatek-theme and
+     CTA is rendered outside that scope */
+  background: #ffffff !important;
+  color: #F57C00 !important;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+}
+.novatek-cta .cta-btn-outline {
+  background: transparent;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255,0.2);
+  display: inline-block;
+}
+
+/* When the novatek section is used, make the following footer sit flush (no top margin) */
+.novatek-section + footer { margin-top: 0 !important; }
+
+/* Animaciones para botones del Hero de Novatek */
+@keyframes buttonPulse {
+  0% { box-shadow: 0 0 0 0 rgba(245, 124, 0, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(245, 124, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 124, 0, 0); }
+}
+
+@keyframes whatsappGlow {
+  0%, 100% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3); }
+}
+
+/* Estilos para botones del Hero con animaciones mejoradas */
+.novatek-theme .hero-animated-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.novatek-theme .hero-animated-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.novatek-theme .hero-animated-btn:hover::before {
+  left: 100%;
+}
+
+.novatek-theme .hero-animated-btn:hover {
+  animation: buttonPulse 1.5s infinite;
+}
+
+.novatek-theme .hero-whatsapp-btn:hover {
+  animation: whatsappGlow 2s infinite;
+}
+
+/* Efecto ripple para clicks */
+.novatek-theme .hero-animated-btn:active {
+  transform: scale(0.95);
+}
+
+/* Mejora visual para iconos en botones */
+.novatek-theme .hero-animated-btn svg {
+  transition: all 0.3s ease;
+}
+
+.novatek-theme .hero-animated-btn:hover svg {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
