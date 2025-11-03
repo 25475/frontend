@@ -164,30 +164,66 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="mobile-menu-overlay fixed inset-0 z-[10000] md:hidden">
+        <div 
+          className="fixed inset-0 md:hidden" 
+          style={{ 
+            zIndex: 999999,
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0
+          }}
+        >
           {/* Backdrop */}
           <div 
-            className="fixed inset-0 bg-black/70 backdrop-blur-sm transition-opacity duration-300"
+            className="fixed inset-0 bg-black/70 transition-opacity duration-300"
             onClick={() => setIsMobileMenuOpen(false)}
+            style={{ zIndex: 999997 }}
           />
           
-          {/* Menu Panel - DISEÑO UNIVERSAL PARA TODAS LAS PÁGINAS */}
-          <div className={`mobile-menu-panel fixed top-0 right-0 h-full w-80 max-w-[85vw] 
-            bg-white
-            shadow-2xl transform transition-all duration-300 ease-in-out ${
-            isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}>
+          {/* Menu Panel - COMPLETAMENTE NUEVO CON ESTILOS INLINE */}
+          <div 
+            className={`transform transition-all duration-300 ease-in-out ${
+              isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
+            style={{ 
+              position: 'fixed',
+              top: '0px',
+              right: '0px',
+              height: '100vh',
+              width: '320px',
+              maxWidth: '85vw',
+              backgroundColor: '#ffffff',
+              background: '#ffffff',
+              backgroundImage: 'none',
+              backdropFilter: 'none',
+              WebkitBackdropFilter: 'none',
+              filter: 'none',
+              opacity: '1',
+              zIndex: 999998,
+              boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+              borderLeft: '1px solid rgba(0, 0, 0, 0.1)'
+            }}
+          >
             
-            {/* Header del menú - estilo degradado azul (como en la captura) */}
-            <div className={`bg-gradient-to-r from-cyan-500 to-blue-600 p-6 shadow-lg`}>
+            {/* Header del menú - estilo degradado azul */}
+            <div 
+              style={{
+                background: 'linear-gradient(to right, #06b6d4, #2563eb)',
+                padding: '24px',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}
+            >
               <div className="flex justify-between items-center">
                 <div>
-                  <h2 className={`text-xl font-bold text-white`}>Menú</h2>
-                  <p className={`text-cyan-100 text-sm mt-1`}>Navegación principal</p>
+                  <h2 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', margin: 0 }}>Menú</h2>
+                  <p style={{ color: '#bfdbfe', fontSize: '14px', marginTop: '4px', margin: 0 }}>Navegación principal</p>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-all duration-200 hover:scale-105`}>
+                  className="p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-all duration-200"
+                >
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
@@ -195,8 +231,8 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
               </div>
             </div>
 
-            {/* Navigation Links - DISEÑO CONSISTENTE */}
-            <nav className="flex flex-col py-6 px-4">
+            {/* Navigation Links */}
+            <nav style={{ display: 'flex', flexDirection: 'column', padding: '24px 16px' }}>
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
@@ -231,17 +267,21 @@ export default function Nav({ isWhiteBackground = true }: NavProps){
               </a>
             </nav>
 
-            {/* Elemento decorativo - SIEMPRE PRESENTE */}
-            {/* Decorative stripe hidden on mobile to avoid visual noise */}
-            <div className="hidden"></div>
-
-            {/* Footer - DISEÑO FIJO */}
-            <div className={`absolute bottom-0 left-0 right-0 p-6 bg-white border-t border-gray-100`}>
-              <div className="text-center">
-                <p className="text-gray-600 text-sm font-medium mb-2">
+            {/* Footer */}
+            <div style={{
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              padding: '24px',
+              backgroundColor: '#ffffff',
+              borderTop: '1px solid #f3f4f6'
+            }}>
+              <div style={{ textAlign: 'center' }}>
+                <p style={{ color: '#4b5563', fontSize: '14px', fontWeight: '500', marginBottom: '8px', margin: 0 }}>
                   🚀 Tecnología avanzada
                 </p>
-                <p className="text-gray-500 text-xs">
+                <p style={{ color: '#6b7280', fontSize: '12px', margin: 0 }}>
                   © 2025 Systray - Servicios de Internet
                 </p>
                 <div className="flex justify-center space-x-4 mt-3">
