@@ -11,7 +11,7 @@ export default function Hero() {
     animation: 'blink 1s infinite',
   }
 
-  // Agregar keyframes de animación al head si no existen
+  
   useEffect(() => {
     const style = document.createElement('style')
     style.textContent = `
